@@ -1,0 +1,30 @@
+.map-section{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+agm-map {
+  height: 300px;
+  width: 100%;
+}
+.images-section {
+  margin: 20px -10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.col-3 {
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 350px;
+}
+.col-3 img {
+  width: 100%;
+  height: 100%;
+}
+.ngx-pagination {
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+}

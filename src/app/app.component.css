@@ -1,6 +1,6 @@
 .map-section{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1140px;
   margin: auto;
 }
 agm-map {
@@ -27,4 +27,29 @@ agm-map {
   text-align: center;
   background: #eee;
   padding: 10px;
+}
+
+
+@media only screen and (max-width: 786px) {
+  .map-section {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .col-3 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 787px) and (max-width: 1200px) {
+  .map-section {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
 }
